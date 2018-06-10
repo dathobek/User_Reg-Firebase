@@ -5,12 +5,14 @@ import { AngularFireDatabaseModule } from 'angularfire2/database'
 
 
 import { AppComponent } from './app.component';
-import { environment } from '../environments/environment'
+import { environment } from '../environments/environment';
+import { SignupComponent } from './signup/signup.component'
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
